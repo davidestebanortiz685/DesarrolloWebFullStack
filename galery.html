@@ -85,5 +85,82 @@
   <p class="navbar-brand">Esta pagina es con fines de aprendizaje y de un trabajo educativo,no es para un uso comercial, cualquiera que la vea de casualidad.</p>
 
 </header>
+<section class="w3l-footer">
+  <footer class="footer-28">
+    <div class="footer-bg-layer">
+      <div class="container py-lg-3">
+        <div class="row footer-top-28">
+          <div class="col-lg-6 col-md-5 footer-list-28 mt-5">
+            <h6 class="footer-title-28">Informacion de Contacto</h6>
+            <ul>
+              <li>
+                <p><strong>Direccion</strong> :  Calle 2 # 79- 35</p>
+              </li>
+              <li>
+                <p><strong>Telefono</strong> : <a href="tel:+(12)234-11-24">+(322)234 1124</a></p>
+              </li>
+              <li>
+                <p><strong>Correo Electronico</strong> : <a href="mailto:example@mail.com">Ejemplo@mail.com</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-7">
+            <div class="row">
+              <div class="col-sm-4 col-6 footer-list-28 mt-5">
+                <h6 class="footer-title-28">Compañia</h6>
+                <ul>
+                  <li><a href="about.html">Acerca de Nosotros</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
+                  <li><a href="products.html">Productos</a></li>
+                  <li><a href="galery.html">Galeria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
+        <div class="container">
+          <p class="copy-footer-28 text-center"> &copy; 2026 Pagina. Todos los derechos reservados diseñados por : <a
+            href="https://www.linkedin.com/in/david-esteban-ortiz-hernandez" target="_blank">
+            DavidOrtiz</a>
+           </p>
+            <p class="copy-footer-28 text-center"> &copy; 2026 Pagina. Todos los derechos de las imagenes y videos son gracias a : <a
+            href="https://pixabay.com/" target="_blank">
+            Pixabay</a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    &#10548;
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+</section>
 </body>
 </html>
